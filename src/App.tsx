@@ -59,7 +59,7 @@ const App = () => {
         countries={favoriteCountry}
         toogleCountry={toogleCountry}
       />
-      ;{/* 기본 나라 */}
+      ;{/* 나라 */}
       <CountryList
         title="나라"
         countries={oneCountry}
