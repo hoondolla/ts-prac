@@ -26,6 +26,7 @@ const CountryCard: React.FC<Props> = ({ country, toogleCountry }) => {
 
   return (
     <>
+      {/* isdone(좋아하는 나라) 이 true 일 때 */}
       {isdone && (
         <li
           className="bg-white rounded-lg shadow-md p-4 flex items-center space-x-4 hover:bg-gray-700 cursor-pointer transition-all duration-300 ease-in-out"
@@ -42,6 +43,8 @@ const CountryCard: React.FC<Props> = ({ country, toogleCountry }) => {
           </div>
         </li>
       )}
+
+      {/* isdone(좋아하는 나라) 이 false 일 때 */}
 
       {!isdone && (
         <li
