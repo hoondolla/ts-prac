@@ -1,16 +1,5 @@
 import React from "react";
-
-interface Country {
-  name: {
-    common: string;
-  };
-  region: string;
-  flags: {
-    png: string;
-  };
-  isdone: boolean;
-  area: number;
-}
+import { Country } from "../types/Countries";
 
 interface Props {
   country: Country;

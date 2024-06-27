@@ -1,16 +1,5 @@
 import CountryCard from "./CountryCard";
-
-interface Country {
-  name: {
-    common: string;
-  };
-  region: string;
-  flags: {
-    png: string;
-  };
-  isdone: boolean;
-  area: number;
-}
+import { Country } from "../types/Countries";
 
 interface Props {
   title: string;
